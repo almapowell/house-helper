@@ -11,7 +11,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 const Layout = styled.div`
-  padding: 72px 25px 25px 25px;
+  padding: 90px 80px 25px 80px;
   position: relative;
   min-height: 63vh;
   background: #EDEDED;

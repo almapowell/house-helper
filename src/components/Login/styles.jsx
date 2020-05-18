@@ -34,7 +34,7 @@ background: ${appColors.white};
 
 `;
 
-export const FromButton = styled.button`
+export const FormButton = styled.button`
 height: 45px;
 width: 40%;
 border: none;
