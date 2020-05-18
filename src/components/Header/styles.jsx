@@ -36,12 +36,12 @@ export const HomeLink = styled(NavLink)`
 
 
     &:hover {
-        background-color: ${appColors.green};
+        background-color: ${appColors.mainColor};
         cursor: pointer;
     }
 
     &.main-nav-active {
-        border-bottom: 10px solid ${appColors.green};
+        border-bottom: 10px solid ${appColors.mainColor};
       }
 `;
 
@@ -58,12 +58,12 @@ export const NavElement = styled(NavLink)`
 
 
     &:hover {
-        background-color: ${appColors.green};
+        background-color: ${appColors.mainColor};
         cursor: pointer;
     }
 
     &.main-nav-active {
-        border-bottom: 10px solid ${appColors.green};
+        border-bottom: 10px solid ${appColors.mainColor};
       }
 `;
 

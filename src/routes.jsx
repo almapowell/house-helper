@@ -14,6 +14,7 @@ const Layout = styled.div`
   padding: 72px 25px 25px 25px;
   position: relative;
   min-height: 63vh;
+  background: #EDEDED;
 `;
 
 const Wrap = styled.div`
