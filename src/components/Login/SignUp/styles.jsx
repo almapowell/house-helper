@@ -4,7 +4,7 @@ import {appColors} from 'styles/variables';
 
 export const SignUpForm = styled.form`
 height: 80%;
-width: 50%;
+width: 25em;
 padding: 20px;
 display: flex;
 flex-direction: column;
@@ -27,6 +27,7 @@ p {
 `;
 
 export const SignUpInput = styled(FormInput)`
+border: ${props => props.missing ? '1px solid red' : '1px solid transparent'};
 width: 97%;
 `;
 
@@ -36,11 +37,13 @@ justify-content: space-between;
 `;
 
 export const NameInputs = styled(FormInput)`
+border: ${props => props.missing ? '1px solid red' : '1px solid transparent'};
 width: 45%;
 `;
 
 export const SignUpBtn = styled(FormButton)`
-background-color: ${appColors.mainColor};
+// background-color:${props => props.disabledBtn ? appColors.mainColor : 'grey'};
+background-color:${appColors.mainColor};
 color: ${appColors.white};
 &:hover {
     background-color: #0E52BA;
